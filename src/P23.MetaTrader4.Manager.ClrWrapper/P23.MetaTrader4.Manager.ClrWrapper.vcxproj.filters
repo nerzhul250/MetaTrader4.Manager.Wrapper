@@ -169,7 +169,4 @@
       <Filter>Resource Files</Filter>
     </Image>
   </ItemGroup>
-  <ItemGroup>
-    <None Include="signkey.snk" />
-  </ItemGroup>
 </Project>
