@@ -15,8 +15,7 @@ namespace P23.MetaTrader4.Manager.Tests.Helpers
 
         public static ClrWrapper CreateWrapper()
         {
-            return new ClrWrapper(GetCredentials(),
-                @"D:\ProgrammingWorkspace\GitHub\MetaTrader4.Manager.Wrapper\Libraries\mtmanapi\mtmanapi.dll");
+            return new ClrWrapper(GetCredentials(), @"E:\DATA\Repositories\MetaTrader4.Manager.Wrapper\Libraries\mtmanapi\mtmanapi.dll");
         }
 
         private static ConnectionParameters GetCredentials()
